@@ -12,7 +12,7 @@
 
 # https://github.com/mholt/archiver
 %global goipath         github.com/mholt/archiver/v4
-Version:                4.0.0-alpha.8
+Version:                4.0.0.alpha.8
 %global tag             v4.0.0-alpha.8
 
 # REMOVE BEFORE SUBMITTING THIS FOR REVIEW
