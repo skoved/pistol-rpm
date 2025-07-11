@@ -36,6 +36,8 @@ License:        # FIXME
 URL:            %{gourl}
 Source:         %{gosource}
 
+BuildRequires: file-devel
+
 %description %{common_description}
 
 %gopkg
