@@ -32,7 +32,7 @@ Name:           golang-github-doronbehar-magicmime
 Release:        %autorelease
 Summary:        Go bindings for libmagic to detect MIME types
 
-#License:        # FIXME
+License:        Apache-2.0
 URL:            %{gourl}
 Source:         %{gosource}
 
