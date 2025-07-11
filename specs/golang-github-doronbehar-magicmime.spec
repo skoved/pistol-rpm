@@ -10,7 +10,7 @@
 # https://github.com/doronbehar/magicmime
 %global goipath         github.com/doronbehar/magicmime
 Version:                0.1.1
-%global commit          8698a7074799189633f3be29613cc24c4511a771
+%global commit          3de4ff29dc49ea8f07b0c361193d3137b9c2c6db
 
 # REMOVE BEFORE SUBMITTING THIS FOR REVIEW
 # ---
