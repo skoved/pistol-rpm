@@ -61,6 +61,7 @@ BuildRequires: file-devel
 
 %if %{without bootstrap}
 %build
+export LDFLAGS="-X 'main.Version=%{tag}'"
 for cmd in cmd/* ; do
   %gobuild -o %{gobuilddir}/bin/$(basename $cmd) %{goipath}/$cmd
 done
