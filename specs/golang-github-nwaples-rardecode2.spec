@@ -8,7 +8,7 @@
 %endif
 
 # https://github.com/nwaples/rardecode
-%global goipath         github.com/nwaples/rardecode
+%global goipath         github.com/nwaples/rardecode/v2
 Version:                2.0.0.beta.2
 %global tag             v2.0.0-beta.2
 
@@ -30,7 +30,7 @@ A go package for reading RAR archives.}
 %global golicenses      LICENSE
 %global godocs          README.md
 
-Name:           golang-github-nwaples-rardecode
+Name:           golang-github-nwaples-rardecode2
 Release:        %autorelease
 Summary:        A go package for reading RAR archives
 
