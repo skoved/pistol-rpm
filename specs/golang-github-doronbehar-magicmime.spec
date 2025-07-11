@@ -37,6 +37,8 @@ License:        Apache-2.0
 URL:            %{gourl}
 Source:         %{gosource}
 
+BuildRequires: file-devel
+
 %description %{common_description}
 
 %gopkg
