@@ -13,8 +13,8 @@
 # https://github.com/alessio/shellescape
 %global goipath         al.essio.dev/pkg/shellescape
 %global forgeurl        https://github.com/alessio/shellescape
-Version:                1.5.1
-%global tag             v1.5.1
+Version:                1.6.0
+%global tag             v1.6.0
 
 # REMOVE BEFORE SUBMITTING THIS FOR REVIEW
 # ---
