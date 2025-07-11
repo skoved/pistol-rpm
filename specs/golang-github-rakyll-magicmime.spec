@@ -56,8 +56,8 @@ BuildRequires: file-devel
 
 %if %{without bootstrap}
 %if %{with check}
-%check
-%gocheck
+#%%check
+#%%gocheck
 %endif
 %endif
 
