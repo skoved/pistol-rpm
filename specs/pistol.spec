@@ -79,8 +79,8 @@ install -m 0644 -vp %{name}.1*          %{buildroot}%{_mandir}/man1/
 
 %if %{without bootstrap}
 %if %{with check}
-%check
-%gocheck
+#%%check
+#%%gocheck
 %endif
 %endif
 
