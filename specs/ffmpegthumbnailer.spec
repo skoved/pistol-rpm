@@ -27,8 +27,9 @@ Requires: libjpeg-turbo
 %prep
 %autosetup
 
-
 %build
+export CMAKE_C_COMPILER=gcc
+export CMAKE_CXX_COMPILER=g++
 %cmake
 %cmake_build
 
