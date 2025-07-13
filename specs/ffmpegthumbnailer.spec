@@ -13,6 +13,8 @@ License:        GPL-2.0-only
 URL:            https://github.com/dirkvdb/ffmpegthumbnailer
 Source0:        https://github.com/dirkvdb/ffmpegthumbnailer/archive/refs/tags/%{version}.tar.gz
 
+BuildRequires: gcc
+BuildRequires: g++
 BuildRequires: cmake
 BuildRequires: ffmpeg-free-devel
 BuildRequires: libpng-devel
