@@ -47,6 +47,9 @@ export CMAKE_CXX_COMPILER=g++
 %doc README.md README
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
+%{_includedir}/lib%{name}/*
+%{_libdir}/lib%{name}/*
+/usr/lib/debug/usr/*
 
 
 %changelog
